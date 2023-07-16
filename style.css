@@ -1,14 +1,51 @@
 *{
+    height: fit-content;
+}
+
+@media (max-width: 464px) {
+    html{
+        position: absolute;
+        background-color: #99D9EA;
+    }
+    .container.fluid{
+        border:10px solid #99D9EA;
+        padding-left: ;
+    }
+    body{
+        background-color: #99D9EA;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 body{
-
-    background-color:3C5B92;
-
     font-size: 20pt;
     color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    height: fit-content;
 }
-
 .cor{
     background-color:#99D9EA;
+}
+
+.carousel-item{
+    height: 600px;
+    justify-content: center;
+    display: flex;
+}
+
+.AjusteImg{
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+    min-width: 200px;
+    height: 400px;
+}
+
+@media (max-width:300px){
+    q{font-size: 20px;}
+}
+
+#btn1:hover{
+    background-color: #acdae7;
 }
